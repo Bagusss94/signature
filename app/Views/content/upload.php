@@ -30,7 +30,7 @@
         </div>
         <div class="form-group">
             <label for="pilih">Kepada :</label>
-            <select class="selectpicker" multiple>
+            <select class="selectpicker form-control" multiple>
                 <option>Mustard</option>
                 <option>Ketchup</option>
                 <option>Relish</option>
