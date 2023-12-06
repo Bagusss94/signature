@@ -27,14 +27,11 @@ class Signer extends Migration
                 'status'      => [
                     'type'           => 'ENUM',
                     'constraint'     => ['signed', 'waiting', 'queue'],
-                    'default'        => 'draft',
                 ],
                 'signed_at'          => [
                     'type'           => 'DATETIME',
                 ],
-                'create_at'          => [
-                    'type'           => 'DATETIME',
-                ],
+                'created_at DATETIME DEFAULT NOW()'
             ]
         );
         $this->forge->addKey('id', TRUE);

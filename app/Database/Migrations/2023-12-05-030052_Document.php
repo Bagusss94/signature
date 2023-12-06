@@ -27,10 +27,9 @@ class Document extends Migration
                 'date_of_use'          => [
                     'type'           => 'DATETIME',
                 ],
-                'created_at'          => [
-                    'type'           => 'DATETIME',
-                ],
-            ]
+                'created_at DATETIME DEFAULT NOW()'
+            ],
+
         );
         $this->forge->addKey('id', TRUE);
         $this->forge->createTable('document');

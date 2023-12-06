@@ -24,9 +24,7 @@ class Signature extends Migration
                     'type'           => 'VARCHAR',
                     'constraint'     => '255',
                 ],
-                'created_at'          => [
-                    'type'           => 'DATETIME',
-                ],
+                'created_at DATETIME DEFAULT NOW()'
             ]
         );
         $this->forge->addKey('id', TRUE);

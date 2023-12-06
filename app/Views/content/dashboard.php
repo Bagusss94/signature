@@ -88,7 +88,7 @@
             </div>
         </div>
     </div>
-    <h1>Syarat Pengambilan Cuti</h1>
+    <!-- <h1>Syarat Pengambilan Cuti</h1> -->
     <!-- <div class="card text-bg-info mb-3" style="max-width: 18rem;">
         <div class="card-header">Cuti Sakit</div>
         <div class="card-body">
@@ -96,57 +96,7 @@
             <p class="card-text">Bila PNS jatuh sakit dan tidak memungkinkan untuk melakukan pekerjaan, yang bersangkutan berhak atas cuti sakit. Aturan cuti PNS yang sakit diberikan 1 hari atau 2 hari kerja dengan ketentuan bahwa ia harus memberitahukan kepada atasannya dan melampirkan surat keterangan dokter.</p>
         </div>
     </div> -->
-    <div class="row">
 
-        <div class="col-lg-6">
-
-            <!-- Default Card Example -->
-            <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                    <h6 class="m-0 font-weight-bold text-primary">Cuti Sakit</h6>
-                </div>
-                <div class="card-body">
-                    Bila PNS jatuh sakit dan tidak memungkinkan untuk melakukan pekerjaan, yang bersangkutan berhak atas cuti sakit. Aturan cuti PNS yang sakit diberikan 1 hari atau 2 hari kerja dengan ketentuan bahwa ia harus memberitahukan kepada atasannya dan melampirkan surat keterangan dokter.
-                </div>
-            </div>
-
-            <!-- Basic Card Example -->
-            <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                    <h6 class="m-0 font-weight-bold text-primary">Cuti Alasan Penting</h6>
-                </div>
-                <div class="card-body">
-                    Cuti alasan penting ini diberikan ketika ibu, bapak, istri, suami, anak, adik, kakak, mertua, atau menantu yang sedang sakit keras atau meninggal dunia.
-                </div>
-            </div>
-
-        </div>
-
-        <div class="col-lg-6">
-
-            <!-- Dropdown Card Example -->
-            <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                    <h6 class="m-0 font-weight-bold text-primary">Cuti Besar</h6>
-                </div>
-                <div class="card-body">
-                    Jenis cuti ini diberikan kepada mereka yang telah mengabdikan dirinya sekurang-kurangnya 6 tahun secara terus menerus. Durasi cuti besar yang boleh diambil adalah 3 bulan.
-                </div>
-            </div>
-
-            <!-- Collapsable Card Example -->
-            <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                    <h6 class="m-0 font-weight-bold text-primary">Cuti Melahirkan</h6>
-                </div>
-                <div class="card-body">
-                    Untuk persalinan anak yang pertama, kedua, dan ketiga, wanita berhak atas cuti melahirkan. Namun, untuk persalinan anak keempat dan seterusnya, diberikan cuti di luar tanggungan negara. Ketentuan lamanya cuti melahirkan adalah 1 bulan sebelum dan 2 bulan sesudah persalinan. Cuti ini diajukan secara tertulis dan selama menjalankan cuti ini, wanita masih berhak mendapatkan penghasilannya.
-                </div>
-            </div>
-
-        </div>
-
-    </div>
 
 </div>
 <?= $this->endSection(); ?>

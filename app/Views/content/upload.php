@@ -24,7 +24,7 @@
 
         <input type="text" name="id" hidden>
 
-        <div class="form-group">
+        <!-- <div class="form-group">
             <label for="mulai">Mulai </label>
             <input type="date" class="form-control" id="mulai" aria-describedby="mulai" name="mulai" required>
         </div>
@@ -40,7 +40,7 @@
         <div class="form-group">
             <label for="alasan">Keterangan</label>
             <textarea class="form-control" id="alasan" rows="3" name="alasan" required></textarea>
-        </div>
+        </div> -->
 
 
 

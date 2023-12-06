@@ -44,9 +44,8 @@ class Profile extends Migration
                     'type'           => 'VARCHAR',
                     'constraint'     => '255',
                 ],
-                'created_at'          => [
-                    'type'           => 'DATETIME',
-                ],
+                'created_at DATETIME DEFAULT NOW()',
+
                 'updated_at'          => [
                     'type'           => 'DATETIME',
                 ],
