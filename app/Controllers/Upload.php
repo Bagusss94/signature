@@ -8,11 +8,16 @@ class Upload extends BaseController
 
     public function index()
     {
+        $profile = new \App\Models\ModelProfil();
+        $data['profile'] = $profile->orderBy('id')->findAll();
         return view('content/upload', ['errors' => []]);
     }
 
+
+
     public function upload()
     {
+
         $validationRule = [
             'userfile' => [
                 'uploaded[userfile]',

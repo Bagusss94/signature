@@ -7,8 +7,8 @@
         margin-left: 30px;
     }
 </style>
-<div class="card">
-    <div class="card-body">
+<div class="">
+    <div class="">
         <h3>Your file was successfully uploaded!</h3>
 
         <ul>
